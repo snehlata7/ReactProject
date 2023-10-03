@@ -1,0 +1,84 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+.user-detail-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 30px;
+  font-size: 20px;
+  border: 1px solid gray;
+  border-radius: 5px;
+}
+
+.detail-container {
+  margin: 30px;
+}
+
+.post-container {
+  margin: 20px 0px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 20px 30px;
+}
+.post-card {
+  padding: 20px 20px;
+  border: 1px solid gray;
+  font-size: 18px;
+  margin: 20px 0px;
+  border-radius: 5px;
+}
+
+/* Desktop view (greater than or equal to a certain width) */
+@media (min-width: 768px) {
+  .post-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .post-card {
+    flex: 0 0 calc(33.33% - 20px); /* 33.33% width with some margin */
+    margin-right: 20px; /* Adjust margin as needed */
+    margin-bottom: 20px; /* Add margin between cards */
+    background-color: #b8e2f2; /* Add a background color for the cards */
+    padding: 15px; /* Add padding to the cards */
+    border: 1px solid #ccc; /* Add a border for the cards */
+    box-sizing: border-box;
+    font-size: 18px;
+  }
+}
+.post-title {
+  margin: 10px 0px;
+  font-weight: bold;
+}
+/* Mobile view (less than a certain width) */
+@media (max-width: 767px) {
+  .post-card {
+    flex: 0 0 100%; /* 100% width, 1 post per row */
+    margin-right: 0; /* No right margin */
+    margin-bottom: 20px; /* Add margin between cards */
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+  }
+}
+.left-user-detail-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.right-user-detail-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.detail-container h1 {
+  text-align: center;
+  padding: 20px 0px;
+}
+.user-container a {
+  text-decoration: none;
+}
+
+

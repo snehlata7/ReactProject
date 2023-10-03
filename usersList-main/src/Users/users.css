@@ -1,0 +1,12 @@
+.user-container {
+  margin: 30px;
+}
+.user-container h1 {
+  text-align: center;
+}
+.custom-loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}

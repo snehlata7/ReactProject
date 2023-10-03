@@ -1,0 +1,17 @@
+.left-user-detail-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.right-user-detail-container {
+  display: flex;
+  flex-direction: column;
+  row-gap: 5px;
+}
+.detail-container h1 {
+  text-align: center;
+  padding: 20px 0px;
+}
+.user-container a {
+  text-decoration: none;
+}
